@@ -13,13 +13,14 @@ const Header = () => {
 
             <Logo/>
         </Link>
+       
+
+        </div>
         <div>
 
-            <NavItems/>
-            {/* 26:31 */}
-        </div>
-
-        </div>
+<NavItems/>
+{/* 26:31 */}
+</div>
 
     </header>
   )
