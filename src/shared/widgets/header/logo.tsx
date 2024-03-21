@@ -46,9 +46,8 @@ const Logo = () => {
         </g>
       </svg>
       <h5 className="absolute right-[-45px] xl:right-[-110px] xl:right-[-35px] pt-1 font-medium text-2xl">
-        Flutter > Python
+        Flutter &gt; Python
       </h5>
-    
     </div>
   );
 };
