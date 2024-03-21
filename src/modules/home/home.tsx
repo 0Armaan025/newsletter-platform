@@ -4,6 +4,7 @@ import Banner from "./features/Banner";
 import Branding from "./features/Branding";
 import Benefits from "./features/Benefits";
 import FeatureHighlight from "./features/Feature.highlight";
+import Pricing from "./features/Pricing";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Branding />
       <Benefits />
       <FeatureHighlight />
+      <Pricing/>
     </div>
   );
 };
