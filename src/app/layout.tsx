@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "@next/font/local";
+import { ClerkProvider } from "@clerk/nextjs";
 import "../shared/styles/globals.css";
 import Providers from "@/shared/utils/Providers";
 
@@ -21,10 +22,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${clashDisplay.variable}`}>
-        <Providers children={children}></Providers>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={`${clashDisplay.variable}`}>
+          <Providers children={children}></Providers>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
