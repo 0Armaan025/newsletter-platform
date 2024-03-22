@@ -14,7 +14,8 @@ const DashboardSideBar = () => {
       </div>
       <div>
         <DashboardItems />
-        {/* 1:47:22 */}
+        <UserPlan />
+        {/* 1:57:07 */}
       </div>
     </div>
   );
