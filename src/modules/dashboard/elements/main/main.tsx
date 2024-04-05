@@ -15,12 +15,14 @@ const Main = () => {
         </h1>
         <p className="opactiy-[.7] text-sm">
           Here&apos;s how your publication is doing
+          <br />
         </p>
         <div className="w-full flex">
           <br />
           <DashboardOverViewCard />
-          <SubscribersChart />
         </div>
+        <br />
+        <SubscribersChart />
       </div>
     </>
   );
